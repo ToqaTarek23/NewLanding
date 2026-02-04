@@ -1,0 +1,71 @@
+/* Extension Card Container - needs relative positioning */
+.extension-right {
+    position: relative;
+}
+
+.extension-card {
+    position: relative;
+    background: linear-gradient(145deg, #1a2332, #0f1922);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 320px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* Top-right decorative shield icon */
+.card-lightning.top-right {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #00d4aa, #00b894);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 25px rgba(0, 212, 170, 0.4);
+    z-index: 10;
+}
+
+.card-lightning.top-right img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+/* Bottom-left decorative lightning icon */
+.extension-lightning.bottom-left {
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #e84393, #d63384);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 25px rgba(232, 67, 147, 0.4);
+    z-index: 10;
+}
+
+.extension-lightning.bottom-left img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+/* Make sure the download section is relatively positioned */
+.extension-download-section {
+    position: relative;
+}
+
+.extension-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+}
