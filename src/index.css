@@ -34,7 +34,7 @@
     filter: brightness(0) invert(1);
 }
 
-/* Bottom-left decorative lightning icon */
+/* Bottom decorative lightning icon (positioned at 40% from left, centered) */
 .extension-lightning.bottom-left {
     position: absolute;
     bottom: -15px;

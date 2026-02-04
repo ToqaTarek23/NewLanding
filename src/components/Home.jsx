@@ -111,7 +111,7 @@ function Home() {
                                 </div>
                             </div>
                             <div className="card-lightning top-right">
-                                <img src={icon4} alt="lightning icon" />
+                                <img src={icon4} alt="shield icon" />
                             </div>
                         </div>
                         <div className="extension-lightning bottom-left">
